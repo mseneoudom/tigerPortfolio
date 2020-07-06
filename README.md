@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is incomplete and is on hold..
+
+This project uses a component that creates links based on user input and displays the photoshoot images.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
