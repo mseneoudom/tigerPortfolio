@@ -1,0 +1,80 @@
+header{
+    display:flex;
+    height:100vh;
+    width:100%;
+
+    .headerLeftContainer{
+        width:30%;
+        padding:2% 5%;
+
+        display:flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        // background-image:linear-gradient(rgb(24, 24, 24), rgb(25, 24, 30));
+    }
+}
+
+.logo{
+    width:120px;
+    height:120px;
+}
+
+.opener{
+    text-transform: uppercase;
+    @include fontSize(16);
+
+    color:lighten($mainColor,10%);
+}
+
+h1{
+    text-transform: uppercase;
+    @include fontSize(45);
+    color:$mainColor;
+}
+
+.fontWhite{
+    color:white;
+}
+
+.buttonStyle{
+    border-radius:15px;
+    padding:8px 40px;
+    height:45px;
+
+    border:1px solid transparent;
+
+    background:$mainColor;
+
+    cursor:pointer;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        text-transform: uppercase;
+        @include fontSize(16);
+        color:white;
+    }
+}
+
+.hook{
+    line-height:2;
+    color:black;
+}
+
+// slider containers
+.sliderContainer{
+    height:100vh;
+    width:100%;
+    // border:1px solid black;
+
+    .imageContainer{
+        img{
+            height:1000px;
+        }
+    }
+}
+
+.slick-dots{
+    bottom:25px;
+}

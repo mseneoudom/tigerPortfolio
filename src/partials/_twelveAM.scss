@@ -1,0 +1,70 @@
+.twelveAMSection{
+    height:100vh;
+    width:100%;
+    display:flex;
+
+    .leftContainer{
+        width:45%;
+        height:100%;
+        .imageContainer{
+            height:100%;
+            width:100%;
+            overflow: hidden;
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+    }
+
+    .rightContainer{
+        display:flex;
+        flex-wrap:wrap;
+        width:55%;
+
+        >div{
+            width:50%;
+            height:50%;
+        }
+        .infoContainer{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background:$twelveTheme;
+            h2{
+                color:white;
+            }
+        }
+        .showMore{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            background-image:linear-gradient(rgb(24, 24, 24), rgb(25, 24, 30));
+
+            h2{
+                padding-bottom:5%;
+                color:white;
+                @include fontSize(26);
+                font-weight:400;
+            }
+            .buttonStyle{
+                background:$twelveTheme;
+            }
+        }
+        .imageContainer{
+            overflow: hidden;
+            img{
+                height:100%;  
+                width:100%;  
+            }
+        }
+    }
+}
+
+.sliderContainer{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}

@@ -1,0 +1,47 @@
+.topNav{
+    display:flex;
+    justify-content: center;
+    z-index:1;
+    ul{
+        display:flex;
+        width:90%;
+        justify-content: space-between;
+    }
+    
+    a{
+        color:white;
+        text-transform: uppercase;
+        @include fontSize(18);
+    }
+}
+
+//Nav for non-lading pages
+.subNav{
+    justify-content: space-between;
+    a{
+        color:black;
+    }
+    ul{
+        align-items: center;
+    }
+}
+
+
+.topNav .link{
+    color:white;
+}
+
+.subNav .link{
+    color:black;
+}
+
+.topNav .currentPage{
+    color:rgb(168, 60, 60);
+}
+
+.link{
+    color:black;
+}
+.currentPage{
+    color:rgb(168, 60, 60);
+}

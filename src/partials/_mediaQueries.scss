@@ -1,0 +1,141 @@
+// @media (max-width: 1280px) {
+//     .portfolioItem .mobilePreview{
+//         width:110px;
+//     }
+// }
+
+// @media (max-width: 1164px) {
+//     .portfolioItem .mobilePreview{
+//         width:100px;
+//     }
+//     header .textContainer {
+//         h1{
+//         @include fontSize(70);
+//         }
+//         .jobTitle{
+//             @include fontSize(35);
+//         }
+//         p{
+//             @include fontSize(28);
+//         }
+//     }
+// }
+
+// @media (max-width: 958px) {
+//     .iconContainer{
+//         width:40%;
+//     }
+//     .portfolioItem{
+//         width:100%;
+//     }
+//     .portfolioItem .mobilePreview{
+//         width:150px;
+//     }
+
+//     .contactSection{
+
+//         .bleed{
+//             justify-content: center;
+//         }
+//         .sectionContainer{
+//             width:100%;
+//             margin-bottom:5%;
+//         }
+//     }
+
+//     .socialContainer{
+//         width:100%;
+//         margin-left:0;
+//         .subContainer{
+//             flex-direction:row;
+//             flex-wrap:wrap;
+//         }
+//         p{
+//             width:100%;
+//             text-align:center;
+//         }
+//     }
+
+//     .gradientSquare{
+//         &:before{
+//             top:-4%;
+//         }
+//         &:after{
+//             bottom:-4%;
+//         }
+//     }
+// }
+
+// @media (max-width: 685px) {
+//     .portfolioItem .mobilePreview{
+//         width:100px;
+//     }
+// }
+
+// @media (max-width: 680px) {
+//     .iconContainer{
+//         width:70%;
+//     }
+//     header .textContainer {
+//         h1{
+//         @include fontSize(60);
+//         }
+//         .jobTitle{
+//             @include fontSize(32);
+//         }
+//         p{
+//             @include fontSize(24);
+//         }
+//     }
+// }
+
+
+// @media (max-width: 480px) {
+//     .portfolioItem .mobilePreview{
+//         width:95px;
+//     }
+//     header .textContainer{
+//         h1{
+//             @include fontSize(55);
+//         }
+//     }
+// }
+
+// //Mobile Nav 
+// @media (max-width: 800px) {
+//     .topNav{
+//         .desktopNav{
+//             display:none
+//         }   
+//     }
+
+//     .mobileNav{
+//         display:flex;
+//         justify-content: center;
+//         align-items: center;
+//         position:fixed;
+//         height:100%;
+//         width:30%;
+//         right:-100%;
+//         top:0;
+//         flex-direction: column;
+//         justify-content: space-evenly;
+//         background:rgba(204, 65, 52, 0.801);
+//         z-index:2;
+        
+//         button, a{
+//         @include fontSize(24);
+//         text-align:center;
+//         }
+//     }
+
+//     label[for="mobileNav"]{
+//         display:initial;
+//         color:white;
+//         @include fontSize(30);
+//         position:fixed;
+//         right:20px;
+//         top:20px;
+//         z-index:3;
+//     }
+// }

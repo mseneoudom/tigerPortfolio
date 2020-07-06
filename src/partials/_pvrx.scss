@@ -1,0 +1,71 @@
+.pvrxSection{
+    display:flex;
+    flex-wrap:wrap;
+
+    height:100vh;
+
+    .imageContainer{
+        height:50%;
+        width:50%;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    .leftContainer, .rightContainer{
+        width:50%;
+        height:100%;
+    }
+
+    .leftContainer{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .rightContainer{
+        position:relative;
+        overflow: hidden;
+        background-image:rgba(92, 92, 92, 0.295);
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p,h2{
+            color:white;
+        }
+        p{
+            padding:4% 0;
+        }
+        .textContainer{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .buttonStyle{
+            background:white;
+
+            p{
+                color:black;
+            }
+        }
+    }
+    .backgroundContainer{
+        height:100%;
+        width:100%;
+
+        left:0;
+        top:0;
+
+        z-index:-1;
+
+        position:absolute;
+
+        background-size:cover;
+        background-position: center;
+        background-image: url(../media/music/UNCRWND_VL.9/TIG_6247.jpg);
+
+        filter:blur(2px);
+        transform:scale(1.1);
+    }
+}

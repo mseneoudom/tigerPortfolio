@@ -1,0 +1,81 @@
+.nivaSection{
+    display:flex;
+    height:100vh;
+
+    .leftContainer,.rightContainer{
+        width:25%;
+        display:flex;
+        flex-direction: column;
+    }
+    .middleContainer,.leftContainer,.rightContainer{
+        overflow: hidden;
+        height:100%;
+    }
+
+    .middleContainer{
+        width:50%;
+        .imageContainer{
+            width:100%;
+            height:100%;
+        }
+        img{
+            width:100%;
+            height:100%;
+        }
+    }
+
+    .leftContainer, .rightContainer{
+        .imageContainer{
+            height:60%;
+
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+    
+    .leftContainer img{
+        transform: rotateY(180deg);
+    }
+
+    .infoContainer, .showMore{
+        height:40%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+
+    .rightContainer{
+        h2{
+            padding-bottom:5%;
+            color:white;
+            @include fontSize(26);
+            font-weight:400;
+        }
+    }
+    
+    .showMore{
+        background-image:linear-gradient(rgb(24, 24, 24), rgb(25, 24, 30));
+
+        .buttonStyle{
+            background:$nivaTheme;
+        }
+    }
+    
+    .leftContainer{
+        h2{
+            color:white;
+
+            text-transform: uppercase;
+        }
+    }
+    .infoContainer{
+        // background-image:linear-gradient(rgb(119, 186, 212), rgb(104, 129, 243));
+        // background-color:rgb(119, 186, 212);
+        background:rgb(228, 53, 22);
+
+    }
+}

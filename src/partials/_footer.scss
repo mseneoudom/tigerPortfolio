@@ -1,0 +1,11 @@
+footer{
+    display:flex;
+    justify-content: center;
+    background:black;
+    padding:5px 0;
+    // height:3vh;
+    p{
+        color:white;
+        @include fontSize(14);
+    }
+}

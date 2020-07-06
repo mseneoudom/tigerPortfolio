@@ -1,0 +1,9 @@
+// Mixins @include
+@mixin fontSize($fontValue){
+	font-size: $fontValue * 1px;
+	font-size: ($fontValue/10) * 1rem;
+}
+
+$mainColor:rgb(0, 0, 0);
+$twelveTheme:rgb(236, 87, 87);
+$nivaTheme:rgb(119, 186, 212);

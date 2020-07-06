@@ -1,0 +1,46 @@
+.aboutSection{
+    overflow: hidden;
+
+    h1{
+        text-transform: lowercase;
+        font-weight: 500;
+        @include fontSize(30);
+    }
+
+    .bleed{
+        position:relative;
+    }
+
+    .contentContainer{
+        padding:1% 0;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        >*{
+            padding:0 2%;
+        }
+        .imageContainer{
+            width:50%;
+        }
+        // img{
+        //     width:80%;
+        // }
+        .textContainer{
+            width:50%;
+            >*{
+                margin:2% 0;
+            }
+            a{
+                display:block;
+            }
+        }
+        p,a,i{
+            @include fontSize(18);
+        }
+
+        p{
+            line-height: 1.5;
+        }
+
+    }
+}
